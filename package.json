@@ -2,9 +2,10 @@
   "name": "md-dead-links",
   "version": "0.0.0",
   "description": "A cli package to check for dead links in md files",
-  "main": "index.js",
+  "main": "./lib/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ccp92/md-dead-links/issues"
   },
-  "homepage": "https://github.com/ccp92/md-dead-links#readme"
+  "homepage": "https://github.com/ccp92/md-dead-links#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
